@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Comic Neue', cursive;
+    color: var(--color2);
+}
+:root{
+--color1:rgb(255, 204, 0);
+--color2:rgb(0, 0, 0);
+--color3: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    margin: 0.5em;
+    font-size: 3rem;
+    color: var(--color1);
+    text-shadow: 0.5rem 0.5rem 0.1rem var(--color2);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 0.5rem;
+}
+
+
+nav{
+    margin: 1rem;
+    width: 20%;
+    position:absolute;
+    display: grid;
+    top: 44.5rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+nav>a{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    margin: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: var(--color3);
+    background-color: var(--color2);
+    margin: 0%;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+article>h3,p{
+    margin: 1rem;
+}
+
+h4{
+    text-align: center;
+    color: var(--color3);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+aside{
+    display: inline-block;
+    display: flex;
+    justify-content:right;
+    position: absolute;;
+    left: 100%;
+    bottom: 630px;
+}
+
+.background{
+    width: 100%;
+    height: 40rem;
+}
+
+.logo{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 18rem;
+    right: 4rem;
+    float: right;
+}
+
+.schedule{
+    text-align: center;
+    display: grid;
+    margin: 1rem;
+    padding: 200px;
+    justify-content: center;
+    border-radius: 1rem;
+}
