@@ -183,3 +183,7 @@ th{
     height: auto;
     min-height: 150px;
 }
+
+.inline-block{
+    display: flex;
+}
