@@ -4,7 +4,7 @@
     font-family: 'Comic Neue', cursive;
 }
 :root{
---color-background: rgb(208, 211, 174);
+--color-background: rgb(190, 185, 106);
 --color1:rgb(247, 243, 19);
 --color2:rgb(255, 255, 255);
 --color-hovernav:rgb(66, 158, 74);
@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--background-color);
+    background-color: var(--color-background);
 }
 
 header {
