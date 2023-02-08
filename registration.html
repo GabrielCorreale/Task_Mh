@@ -16,7 +16,7 @@
         <h1>Mighty Ducks Hockey League</h1>
     </header>
     <nav>
-        <a href="#">Home</a>
+        <a href="./index.html">Home</a>
         <a href="./about.html">About MDHL</a>
         <a href="./contact.html">Contact</a>
         <a href="./rules.html">Rules</a>
@@ -26,9 +26,9 @@
 
     <main>
         <h2>Registration Form</h2>
-        <aside>
-            <img class="logo" src="./assets/img/LogoMightyduck-01.png" alt="Logo Mighty Ducks Hockey League">
-        </aside>
+        <figure id="logo">
+            <img src="./assets/img/LogoMightyduck-01.png" alt="Logo Mighty Ducks Hockey League">
+        </figure>
 
         <div>
             <form class="rules" action="./show_data.html" method="get">
@@ -88,7 +88,7 @@
                         <li class="double">
                             <label for="select-school">Closest School:</label>
                             <select name="school" id="select-school" required>
-                                <option>Select a school</option>
+                                <option value="">Select a school</option>
                                 <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                                 <option value="Greenbay">Greenbay</option>
                                 <option value="Howard A Yeager">Howard A Yeager</option>
@@ -103,19 +103,19 @@
                     <legend class="bold h3">What position(s) do you normally play?(check all that apply)</legend>
                     <ol>
                         <li class="double">
-                            <input type="checkbox" name="" id="forward" value="forward">
+                            <input type="checkbox" name="position" id="forward" value="forward">
                             <label class="not-block" for="forward">Forward</label>
                         </li>
                         <li class="double">
-                            <input type="checkbox" name="" id="midfield" value="midfield">
+                            <input type="checkbox" name="position" id="midfield" value="midfield">
                             <label class="not-block" for="midfield">Midfield</label>
                         </li>
                         <li class="double">
-                            <input type="checkbox" name="" id="defense" value="defense">
+                            <input type="checkbox" name="position" id="defense" value="defense">
                             <label class="not-block" for="defense">Defense</label>
                         </li>
                         <li class="double">
-                            <input type="checkbox" name="" id="goalkeeper" value="goalkeeper">
+                            <input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">
                             <label class="not-block" for="goalkeeper">Goalkeeper</label>
                         </li>
                     </ol>
